@@ -15,7 +15,7 @@ function! instaflog#open() abort
   execute "lcd " . l:dir
   terminal
   set ft=instaflog
-  call feedkeys("Aforest --style=10 --pretty='format:%ad [%h] {%an}%d %s' --date='short' --all \<BAR> less -R\<CR>")
+  call feedkeys("Agit log --graph --pretty='format:%ad [%h] {%an}%d %s' --date='short' --all \<BAR> less -R\<CR>")
 endfunction
 
 function! instaflog#quit() abort
