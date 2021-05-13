@@ -3,6 +3,9 @@
 A fast wrapper around `git log` and similar commands,
 for when the git repository is too large to use flog.
 
+Large parts of the code were sloppily copy-pasted from
+flog, as this is just a proof-of-concept.
+
 This plugin allows you to open a terminal with its own
 filetype and mappings which operate on the output of the
 git log command. By using a pager inside the terminal,
